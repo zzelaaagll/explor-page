@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>《反欺骗的艺术》第一章 安全软肋 | 探索の位面</title><meta name="author" content="调查员D★ubleZ"><meta name="copyright" content="调查员D★ubleZ"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="某公司也许购置了能用钱买到的最好的安全技术，员工们也训练有素，每晚回家前把所有的秘密都锁起来，并从业内最好的保安公司雇用了保安，但这家公司仍然易受攻击。一些人可能遵从了专家所有最好的安全建议，安装了各种受推荐的安全产品，并十分谨慎的处理系统配置以及应用安全补丁，但他们仍然很不安全。 人为因素在国会听证会前的一次证言中，我解释到我经常可以从企业获得密码口令或其他类似的敏感信息，只需假扮某人直接开口要">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《反欺骗的艺术》第一章 安全软肋">
+<meta property="og:url" content="https://explor.planes.eu.org/posts/2023/05/%E3%80%8A%E5%8F%8D%E6%AC%BA%E9%AA%97%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AE%89%E5%85%A8%E8%BD%AF%E8%82%8B.html">
+<meta property="og:site_name" content="探索の位面">
+<meta property="og:description" content="某公司也许购置了能用钱买到的最好的安全技术，员工们也训练有素，每晚回家前把所有的秘密都锁起来，并从业内最好的保安公司雇用了保安，但这家公司仍然易受攻击。一些人可能遵从了专家所有最好的安全建议，安装了各种受推荐的安全产品，并十分谨慎的处理系统配置以及应用安全补丁，但他们仍然很不安全。 人为因素在国会听证会前的一次证言中，我解释到我经常可以从企业获得密码口令或其他类似的敏感信息，只需假扮某人直接开口要">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://explor.planes.eu.org/resources/post_image/2023/05/%E3%80%8A%E5%8F%8D%E6%AC%BA%E9%AA%97%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AE%89%E5%85%A8%E8%BD%AF%E8%82%8B/00.jpg">
+<meta property="article:published_time" content="2023-05-27T14:47:00.000Z">
+<meta property="article:modified_time" content="2023-05-27T15:43:40.929Z">
+<meta property="article:author" content="调查员D★ubleZ">
+<meta property="article:tag" content="反欺骗的艺术">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://explor.planes.eu.org/resources/post_image/2023/05/%E3%80%8A%E5%8F%8D%E6%AC%BA%E9%AA%97%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AE%89%E5%85%A8%E8%BD%AF%E8%82%8B/00.jpg"><link rel="shortcut icon" href="/resources/other_file/image/avatar.jpg"><link rel="canonical" href="https://explor.planes.eu.org/posts/2023/05/%E3%80%8A%E5%8F%8D%E6%AC%BA%E9%AA%97%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AE%89%E5%85%A8%E8%BD%AF%E8%82%8B.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '《反欺骗的艺术》第一章 安全软肋',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-05-27 23:43:40'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://planes.eu.org/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/guest/"><i class="fa-fw fas fa-book"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/resources/post_image/2023/05/%E3%80%8A%E5%8F%8D%E6%AC%BA%E9%AA%97%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AE%89%E5%85%A8%E8%BD%AF%E8%82%8B/00.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="探索の位面"><span class="site-name">探索の位面</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/guest/"><i class="fa-fw fas fa-book"></i><span> 留言</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">《反欺骗的艺术》第一章 安全软肋</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-05-27T14:47:00.000Z" title="发表于 2023-05-27 22:47:00">2023-05-27</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-05-27T15:43:40.929Z" title="更新于 2023-05-27 23:43:40">2023-05-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%99%BE%E7%A7%91/">百科</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%99%BE%E7%A7%91/%E7%A4%BE%E4%BC%9A%E5%B7%A5%E7%A8%8B/">社会工程</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>某公司也许购置了能用钱买到的最好的安全技术，员工们也训练有素，每晚回家前把所有的秘密都锁起来，并从业内最好的保安公司雇用了保安，但这家公司仍然易受攻击。一些人可能遵从了专家所有最好的安全建议，安装了各种受推荐的安全产品，并十分谨慎的处理系统配置以及应用安全补丁，但他们仍然很不安全。</p>
+<h1 id="人为因素"><a href="#人为因素" class="headerlink" title="人为因素"></a>人为因素</h1><p>在国会听证会前的一次证言中，我解释到我经常可以从企业获得密码口令或其他类似的敏感信息，只需假扮某人直接开口要就是了。人们对于绝对安全的渴望常常导致他们满足于虚假的安全感之中。想像一位负责任的可爱的屋主，他有一套麦迪科（译者注：Medico,知名品牌、价格昂贵）防撬锁装在屋子的大门上，以保护他的妻子、孩子和他的家。他觉得很心安，因为他把家庭保护的很好。但对于破窗而入和解开车库大门密码的闯入者呢？再安装一套强壮的安全系统么？虽然有用，但还是不够安全。无论防盗锁是昂贵还是便宜，屋主的安全仍然难以保障。为什么？因为人为因素才是安全的软肋。</p>
+<p>安全，通常情况下仅仅是个幻想，由其是轻信、好奇和无知存在的时候。二十世纪最受尊敬的科学家爱因斯坦这样说道：“只有两种事物是无穷尽的――宇宙和人类的愚蠢。但对于前者，我不敢确定。”最终，社会工程学的攻击，成功于人们的愚蠢或更为普遍的对信息安全实践上的无知。</p>
+<p>与这位屋主一样，有许多信息技术（IT）从业者都有着类似的错误观念。他们认为自己的公司固若金汤，因为其配置了精良的安全设备――防火墙、入侵检测，或是更为保险的身份认证系统，如时间令牌和生物识别卡。任何认为仅靠这些安全设备即可保证安全的人都会满足于虚假的安全感之中，这就是一个生活在幻想世界中的例子，他们迟早会不可避免的遭遇安全事故。</p>
+<p>正如著名的安全顾问布鲁斯·施尼尔（Bruce Schneier）所说：“安全不是一件产品，它是一个过程。”近一步说，安全不是技术问题，它是人和管理的问题。由于开发商不断地创造出更好的安全科技产品，攻击者利用技术上的漏洞变得越来越困难。于是，越来越多的人转向利用人为因素的手段来进行攻击。穿越人这道防火墙十分容易，只需打一个电话的成本和冒最小的风险。</p>
+<h1 id="一个欺骗的经典案例"><a href="#一个欺骗的经典案例" class="headerlink" title="一个欺骗的经典案例"></a>一个欺骗的经典案例</h1><p>企业资产安全最大的威胁是什么？很简单，社会工程师。一个无所顾忌的魔术师，用他的左手吸引你的注意，右手窃取你的秘密。他通常十分友善，很会说话，并会让人感到遇上他是件荣幸的事情。我们来看一个社会工程学的例子：</p>
+<p>许多人都已记不起一个叫斯坦利·马克·瑞夫金（Stanley Mark Rifkin）的年轻人，和他在洛杉矶的美国保险太平洋银行（Security Pacific National Bank）的冒险小故事了。他的劣迹很多，瑞夫金（同我一样）从未把自己的事情告诉过别人，因此下面的叙述基于公开的报道。</p>
+<h1 id="获得密码"><a href="#获得密码" class="headerlink" title="获得密码"></a>获得密码</h1><p>1978 的一天，瑞夫金无意中来到了美国保险太平洋银行的授权职员准入的电汇交易室，这里每天的转款额达到几十亿美元。瑞夫金当时工作的那家公司恰巧负责开发电汇交易室的数据备份系统，这给了他了解转账程序的机会，包括银行职员拔出账款的步骤。他了解到被授权进行电汇的交易员每天早晨都会收到一个严密保护的密码，用来进行电话转帐交易。</p>
+<p>电汇室里的交易员为了记住每天的密码，图省事把密码记到一张纸片上，并把它贴到很容易看得见的地方。11 月的一天，瑞夫金有了一个特殊的理由出入电汇室。到达电汇室后，他做了一些操作过程的记录，装做在确定备份系统的正常工作。借此机会偷看纸片上的密码，并用脑子记了下来，几分钟后走出电汇室。瑞夫金后来回忆道：“感觉就像中了大奖”。</p>
+<h1 id="转款入户"><a href="#转款入户" class="headerlink" title="转款入户"></a>转款入户</h1><p>瑞夫金约在下午 3 点离开电汇室，径直走到大厦前厅的付费电话旁，塞入一枚硬币，打给电汇室。此时，他改变身份，装扮成一名银行职员――工作于国际部的麦克·汉森（Mike Hansen）。那次对话大概是这样的：</p>
+<p>“喂，我是国际部的麦克·汉森。”他对接听电话的小姐说，小姐按正常工作程序让他报上办公电话。“286。”他已有所准备。小姐接着说：“好的，密码是多少？”瑞夫金曾回忆到他那时的“兴奋异常”。“4789”他尽量平静地说出密码。接着他让对方从纽约欧文信托公司（Irving Trust Company）贷一千零二十万美元到瑞士苏黎士某银行（Wozchod Handels Bank），他已经建立好的账户上。对方说：“好的，我知道了，现在请告诉我转账号。</p>
+<p>瑞夫金吓出一身冷汗，这个问题事先没有考虑到，他的骗钱方案出现了纰漏。但他尽量保持自己的角色，十分沉稳，并立刻回答对方：“我看一下，马上给你打过来。”这次，他装扮成电汇室的工作人员，打给银行的另一个部门，拿到帐号后打回电话。对方收到后说：“谢谢。”（在这种情况下说“谢谢”，真是莫大的讽刺。</p>
+<h1 id="成功结束"><a href="#成功结束" class="headerlink" title="成功结束"></a>成功结束</h1><p>几天后，瑞夫金乘飞机来到瑞士提取了现金，他拿出八百万通过俄罗斯一家代理处购置了一些钻石，然后把钻石封在腰带里通过了海关，飞回美国。瑞夫金成功的实施了历史上最大的银行劫案，他没有使用武器，甚至勿需计算机的协助。奇怪的是，这一事件以“最大的计算机诈骗案”为名，收录在吉尼斯世界纪录中。斯坦利·瑞夫金用的就是欺骗的艺术，这种技巧和能力我们现在把它称为——社会工程学。</p>
+<h1 id="威胁的天然性"><a href="#威胁的天然性" class="headerlink" title="威胁的天然性"></a>威胁的天然性</h1><p>瑞夫金的故事确切的证明了我们的安全感是多么不可靠。这样的事件（也许到不了一千万美元，但终归有所损失）每天都在发生，你的资金可能正在流失，新产品方案正在被窃取，而你却一无所知。即使你的公司还没有这样的事情出现，那也会终将出现。但它何时出现呢？</p>
+<h1 id="日益增长的安全事件"><a href="#日益增长的安全事件" class="headerlink" title="日益增长的安全事件"></a>日益增长的安全事件</h1><p>美国计算机安全协会在 2001 年计算机犯罪调查报告中声称，在接受调查的组织机构中，有 85%的组织在过去的 12 个月中发现了计算机安全事件。这是一个惊人的数字，只有 15%的机构在过去的一年中没有发现安全事件。另一个数字同样惊人，有 64%的机构由于计算机的问题而导致财务损失，超过一年中遭受财务损失企业的二分之一强。</p>
+<p>我的经验告诉我这个数字有些夸大，并对这项调查的研究结果表示怀疑。但这并不是说安全事件的危害面不大，相反，它很大。那些未把安全事件考虑在内的人，迟早会出问题。大多数公司配置的安全产品主是应付业余入侵者的，比如被称为“脚本小子”的年轻人。实际上，这些利用别人的软件，并憧憬着成为真正黑客的人，大多数情况下只能引起一些麻烦。真正的损失和威胁，来自于经验丰富、目标清晰，受商业利益驱动的攻击者。这些人一次只盯准一个目标，而不像业余入侵者试图进入尽可能多的系统。业余黑客看重数量，而职业黑客在乎的是信息的质量和价值。</p>
+<p>认证设备（身份认证）、访问控制（对文件和系统资源的控制管理）和入侵检测系统（计算机化的防盗器）等技术，对公司的安全防护是十分必要的。然而，现在的公司在布置保护企业免受攻击的安全对策方面的投入比其花在咖啡上的钱还要少。</p>
+<p>正如同罪恶的心无法抵制诱惑，黑客们一心要找出功能强大的安全系统的弱点。在许多时候，他们把这种心思放在了人的身上。</p>
+<h1 id="欺骗的使用"><a href="#欺骗的使用" class="headerlink" title="欺骗的使用"></a>欺骗的使用</h1><p>许多人都说，关掉了的计算机才是安全的计算机，但这是错误的，找个借口让人去办公室打开它就是了。你的对手不仅仅有一种方法可以从你那里得到他想要的信息，这只是时间的问题。耐心、个性和坚持，这正是欺骗的艺术的切入点。</p>
+<p>要击败安全措施，一个攻击者、入侵者，或是社会工程师，必须找到一个方法，从可信用户那里骗取信息，或是不露痕迹的获得访问权。当可信用户被欺骗、影响，并被操纵而吐露出敏感信息时，或是做出了不当的举动，从而让攻击者有漏洞可钻时，什么样的安全技术也无法保护住你的业务了。正如同密码专家有时通过寻找漏洞来绕过加密技术解出密文一样，社会工程师通过欺骗你的雇员来绕过安全技术。</p>
+<h1 id="信任的弊端"><a href="#信任的弊端" class="headerlink" title="信任的弊端"></a>信任的弊端</h1><p>大多数情况下，成功的社会工程师都有着很强的人际交往能力。他们有魅力、讲礼貌、讨人喜欢，并具有快速建立起可亲、可信感的特点。一个经验丰富的社会工程师，使用他自已的战略、战术，几乎能够接近任何他感兴趣的信息。精干的技术专家辛辛苦苦地设计出安全解决方案来最小化使用计算机的风险，然而却没有解决最大的漏洞――人为因素。尽管我们很聪明，但对我们人类——你、我、他的安全最严重的威胁，来自于我们彼此之间。</p>
+<h1 id="我们的国民性格"><a href="#我们的国民性格" class="headerlink" title="我们的国民性格"></a>我们的国民性格</h1><p>我们对危险漠不关心，尤其在西方，美国则更甚。我们没有受到要对别人保有怀疑态度的训练，我们接受的是“爱汝之邻”（译者注：此句引自《圣经》）的教育，人与人之间要相互信任和忠实，试想一下小区的保安机构让人们锁上家门和车门是多么的困难。这种情形是很明显的，却似乎被许多宁愿活在理想世界里的人忽略，直至受到伤害。</p>
+<p>我们知道，并不是所有的人都诚实善良、友爱可亲，可我们在生活中却经常把他人想像成这样。这种可爱的无知一直都是美国人的生活方式，放弃这种习惯十分不易。做为美国人，自由和最适宜居住的地方就是锁和钥匙最没必要的地方，这种理念已经深入人心。大多数人持有不会被欺骗的想法是觉得被骗的可能性很低，而攻击者利用这种心理，编出不会引起怀疑的听上去十分合理的理由，充分的利用了受骗者的信任。</p>
+<h1 id="机构的无知"><a href="#机构的无知" class="headerlink" title="机构的无知"></a>机构的无知</h1><p>无知是我们国民性格的一部分，这可以在回溯计算机首次远程联接时轻易的看出。APPANet（美国国防部高级研究项目署网络），互联网的前身，用来在政府、科研和教育机构之间共享信息，其目标是信息共享和科技进步，许多教育机构因此建立了几乎没有任何安全措施的早期计算机系统。一个著名的软件开发自由主义者，理查德·斯托曼，甚至拒绝为他的账号设置口令。但随着互联网电子商务的兴起，由于互联网脆弱的安全措施导致的危害性发生了极大的变化。</p>
+<p>使用再多的安全技术也不能解决人为的安全因素，拿今天的机场为例，安全已经成为首要措施，然而我们仍然被媒体的报道所警告，还是有人可以避开安全措施、携带潜在性武器通过检测。在一个机场时刻处于警戒状态下的时期，这种事情又是怎么发生的呢？是那些金属仪器失效了么？不，问题不在机器，问题在于人，机器是由人操纵的。机场的官员虽然可以布署国民警卫队并安装检测器和面部识别系统，但如何培训一线保卫人员正确地检查旅客则更为重要。全世界的政府、商业、教育机构都有同样的问题，虽然各个地方的职业安全人员不敢懈怠，但信息仍然易受攻击，并被具备社会工程学技巧的攻击者视为可摘之果，除非安全链中最薄弱的环节——人为因素，被加固强化。</p>
+<p>现在，我们比任何时候都需要停止幻想，同时对攻击计算机系统和网络机密性、完整性以及实用性的技术加深认识。我们已经认识到主动防御的必要，是接受和学习安全防护的时候了。</p>
+<p> 对你的隐私、思想和公司信息系统的非法入侵似乎很遥远，直到它真的发生。为了避免付出昂贵的代价，我们所有的人都需加深认识、富有经验、保持警醒，并主动防卫我们的信息资产、个人信息，以及国家的关健基础设施。现在，我们必须实行严谨、周密的设防。</p>
+<h1 id="欺骗与恐怖分子"><a href="#欺骗与恐怖分子" class="headerlink" title="欺骗与恐怖分子"></a>欺骗与恐怖分子</h1><p>当然，欺骗并不是社会工程师的专用工具。暴戾的恐怖主义制造了耸人听闻的新闻事件，我们前所未有地意识到我们居住的世界充满了危险。文明，终归只是一层脆弱的薄板。2001年，发生在纽约的 911 事件把悲伤和恐惧植入每一个人的心中，不只是美国人，还有世界上所有善良的人们。我们已经开始警觉，因为这个世界上还分布着受到良好训练的极端恐怖分子，伺机再次发动对我们的攻击。</p>
+<p>政府最近的强化努力已经提升了大众的安全意识，我们需要保持警醒，警惕各种形式的恐怖主义。我们需要了解恐怖分子是如何伪造各种身份，假扮学生、邻居而混入人群的，他们掩饰住自己真实的思想以密谋恐怖行动，而他们使用的就是类似于本书中介绍的欺骗手法。</p>
+<p>然而，就我所认为，恐怖分子目前尚未利用社会工程学的手法渗透到水处理厂、发电厂，或其它关系国计民生的基础设施中，但可能性依然存在，这毕竟太容易做到了。我希望安全意识和相应的安全策略将会得到正确的应用并得到企业上层管理的加强，因为这本书恰逢其时。</p>
+<h1 id="关于此书"><a href="#关于此书" class="headerlink" title="关于此书"></a>关于此书</h1><p>企业安全是一个平衡问题，安全性太差公司易受攻击，但过多的强调安全又会妨碍业务管理和公司的发展，其难点在于达到生产效率和安全之间的平衡。</p>
+<p>其它关于企业信息安全的书都把重点放在硬、软件技术上，而忽略了最重要的安全威胁——对人的欺骗。与之相反，此书的目的，就是要帮助大家理解自己、同事，和公司其他人员是如何被操纵的，并帮助大家建立屏障，谨防成为受害者。本书的重点放在入侵者用来盗取信息的非技术手段上，它能够对看似安全的信息完整性产生威胁，甚至破坏公司的工作成果。</p>
+<p>我的任务由于一个简单的事实而更加困难——每个读者都一直被社会工程学高级专家——他们的父母所控制着，他们有办法（比如：“这是为了你好”）让你去做他们认为最应该做的事。父母们就是使用类似社会工程学的方法，巧妙的编出看似有理的故事、理由以及借口，来达到他们的目的。是的，我们都被我们的父母所引导——那些乐善好施的（偶尔也不完全如此）社会工程师们。</p>
+<p>由于这种生长环境，导致我们软弱而容易被操纵。可总是对他人怀有戒心，担心上当受骗，会活得很累。在理想的世界里我们应对他人给予绝对信任，每个人都是诚实和值得信赖的。但我们并没有生活在理想世界中，我们必须锻炼我们的防欺诈能力以对付我们的敌人。</p>
+<p>这本书的主要内容——第二和第三部分，讲述社会工程师如何实施欺骗的故事。在这两部分中，大家将会看到如下内容：</p>
+<ul>
+<li>电话盗打者早就发现的，一个从电话公司弄到未刊登电话号码的方法；</li>
+<li>几个不同的社会工程学方法，甚至可以让有所警觉和怀疑的职员吐露出自己的用户名<br>和口令； </li>
+<li>信息中心的管理人员如何被控制以配合攻击者窃取企业最机密的产品信息；</li>
+<li>隐私调查者是如何弄到你的企业、你本人的隐密信息的，我可以保证，这会让你脊背<br>发凉。</li>
+</ul>
+<p>你也许会认为这两部分中讲述的故事实际上不可能发生，没有人能够使用书中的谎言、卑鄙的方法和计划真正的达到目的。事实上，在每个案例中，这些故事都是可以成为现实而且已经成为现实的，这些事情每天都在世界的某个地方发生，甚至在你阅读此书的时候都有可能。本书中的内容不仅对你的商务信息保护上有所启迪，还可以让你亲自阻挠社会工程师的攻击以保护你的私有信息。</p>
+<p>在本书的第四部分，我转变了方向。在这里我想帮助大家建立企业必要的安全策略和安全意识培训，以期将员工被社会工程师利用的可能性降到最低。了解社会工程师的策略、方法和技巧，在不会降低公司的生产效率的同时，帮助你布置合理的控制策略来保护企业的信息资产。</p>
+<p>简而言之，我写此书的目的就是要提升大家的安全意识，以应对来自社会工程师的严重威胁，并帮助你的公司和公司员工尽可能的不被利用。或者我应该这样说，不再被利用。</p>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%8F%8D%E6%AC%BA%E9%AA%97%E7%9A%84%E8%89%BA%E6%9C%AF/">反欺骗的艺术</a></div><div class="post_share"></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/posts/2023/05/%E7%88%B1%E5%BE%B7%E5%8D%8E%C2%B7%E6%96%AF%E8%AF%BA%E7%99%BB.html" title="爱德华·斯诺登 —— 美国中央情报局(CIA)前雇员"><img class="cover" src="/resources/post_image/2023/05/%E7%88%B1%E5%BE%B7%E5%8D%8E%C2%B7%E6%96%AF%E8%AF%BA%E7%99%BB/00.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">爱德华·斯诺登 —— 美国中央情报局(CIA)前雇员</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://planes.eu.org/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">调查员D★ubleZ</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">IM：MjIzNzQ0NDkxMQ==</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%BA%E4%B8%BA%E5%9B%A0%E7%B4%A0"><span class="toc-number">1.</span> <span class="toc-text">人为因素</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%B8%AA%E6%AC%BA%E9%AA%97%E7%9A%84%E7%BB%8F%E5%85%B8%E6%A1%88%E4%BE%8B"><span class="toc-number">2.</span> <span class="toc-text">一个欺骗的经典案例</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%8E%B7%E5%BE%97%E5%AF%86%E7%A0%81"><span class="toc-number">3.</span> <span class="toc-text">获得密码</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BD%AC%E6%AC%BE%E5%85%A5%E6%88%B7"><span class="toc-number">4.</span> <span class="toc-text">转款入户</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%88%90%E5%8A%9F%E7%BB%93%E6%9D%9F"><span class="toc-number">5.</span> <span class="toc-text">成功结束</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A8%81%E8%83%81%E7%9A%84%E5%A4%A9%E7%84%B6%E6%80%A7"><span class="toc-number">6.</span> <span class="toc-text">威胁的天然性</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%97%A5%E7%9B%8A%E5%A2%9E%E9%95%BF%E7%9A%84%E5%AE%89%E5%85%A8%E4%BA%8B%E4%BB%B6"><span class="toc-number">7.</span> <span class="toc-text">日益增长的安全事件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%AC%BA%E9%AA%97%E7%9A%84%E4%BD%BF%E7%94%A8"><span class="toc-number">8.</span> <span class="toc-text">欺骗的使用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BF%A1%E4%BB%BB%E7%9A%84%E5%BC%8A%E7%AB%AF"><span class="toc-number">9.</span> <span class="toc-text">信任的弊端</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%88%91%E4%BB%AC%E7%9A%84%E5%9B%BD%E6%B0%91%E6%80%A7%E6%A0%BC"><span class="toc-number">10.</span> <span class="toc-text">我们的国民性格</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%BA%E6%9E%84%E7%9A%84%E6%97%A0%E7%9F%A5"><span class="toc-number">11.</span> <span class="toc-text">机构的无知</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%AC%BA%E9%AA%97%E4%B8%8E%E6%81%90%E6%80%96%E5%88%86%E5%AD%90"><span class="toc-number">12.</span> <span class="toc-text">欺骗与恐怖分子</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E6%AD%A4%E4%B9%A6"><span class="toc-number">13.</span> <span class="toc-text">关于此书</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/2023/05/%E3%80%8A%E5%8F%8D%E6%AC%BA%E9%AA%97%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AE%89%E5%85%A8%E8%BD%AF%E8%82%8B.html" title="《反欺骗的艺术》第一章 安全软肋"><img src="/resources/post_image/2023/05/%E3%80%8A%E5%8F%8D%E6%AC%BA%E9%AA%97%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AE%89%E5%85%A8%E8%BD%AF%E8%82%8B/00.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="《反欺骗的艺术》第一章 安全软肋"/></a><div class="content"><a class="title" href="/posts/2023/05/%E3%80%8A%E5%8F%8D%E6%AC%BA%E9%AA%97%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AE%89%E5%85%A8%E8%BD%AF%E8%82%8B.html" title="《反欺骗的艺术》第一章 安全软肋">《反欺骗的艺术》第一章 安全软肋</a><time datetime="2023-05-27T14:47:00.000Z" title="发表于 2023-05-27 22:47:00">2023-05-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/2023/05/%E7%88%B1%E5%BE%B7%E5%8D%8E%C2%B7%E6%96%AF%E8%AF%BA%E7%99%BB.html" title="爱德华·斯诺登 —— 美国中央情报局(CIA)前雇员"><img src="/resources/post_image/2023/05/%E7%88%B1%E5%BE%B7%E5%8D%8E%C2%B7%E6%96%AF%E8%AF%BA%E7%99%BB/00.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="爱德华·斯诺登 —— 美国中央情报局(CIA)前雇员"/></a><div class="content"><a class="title" href="/posts/2023/05/%E7%88%B1%E5%BE%B7%E5%8D%8E%C2%B7%E6%96%AF%E8%AF%BA%E7%99%BB.html" title="爱德华·斯诺登 —— 美国中央情报局(CIA)前雇员">爱德华·斯诺登 —— 美国中央情报局(CIA)前雇员</a><time datetime="2023-05-25T05:46:00.000Z" title="发表于 2023-05-25 13:46:00">2023-05-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/2023/05/%E5%87%AF%E6%96%87%C2%B7%E7%B1%B3%E7%89%B9%E5%B0%BC%E5%85%8B.html" title="凯文·米特尼克 —— 美国网络安全咨询师、第一个被美国联邦调查局通缉的黑客"><img src="/resources/post_image/2023/05/%E5%87%AF%E6%96%87%C2%B7%E7%B1%B3%E7%89%B9%E5%B0%BC%E5%85%8B/00.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="凯文·米特尼克 —— 美国网络安全咨询师、第一个被美国联邦调查局通缉的黑客"/></a><div class="content"><a class="title" href="/posts/2023/05/%E5%87%AF%E6%96%87%C2%B7%E7%B1%B3%E7%89%B9%E5%B0%BC%E5%85%8B.html" title="凯文·米特尼克 —— 美国网络安全咨询师、第一个被美国联邦调查局通缉的黑客">凯文·米特尼克 —— 美国网络安全咨询师、第一个被美国联邦调查局通缉的黑客</a><time datetime="2023-05-25T03:42:00.000Z" title="发表于 2023-05-25 11:42:00">2023-05-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/2023/05/%E6%9C%B1%E5%88%A9%E5%AE%89%C2%B7%E9%98%BF%E6%A1%91%E5%A5%87.html" title="朱利安·阿桑奇 —— 维基解密的创始人"><img src="/resources/post_image/2023/05/%E6%9C%B1%E5%88%A9%E5%AE%89%C2%B7%E9%98%BF%E6%A1%91%E5%A5%87/00.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="朱利安·阿桑奇 —— 维基解密的创始人"/></a><div class="content"><a class="title" href="/posts/2023/05/%E6%9C%B1%E5%88%A9%E5%AE%89%C2%B7%E9%98%BF%E6%A1%91%E5%A5%87.html" title="朱利安·阿桑奇 —— 维基解密的创始人">朱利安·阿桑奇 —— 维基解密的创始人</a><time datetime="2023-05-24T22:27:00.000Z" title="发表于 2023-05-25 06:27:00">2023-05-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/2023/05/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C.html" title="你好，世界"><img src="/resources/post_image/2023/05/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C/00.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="你好，世界"/></a><div class="content"><a class="title" href="/posts/2023/05/%E4%BD%A0%E5%A5%BD%E4%B8%96%E7%95%8C.html" title="你好，世界">你好，世界</a><time datetime="2023-05-22T06:32:00.000Z" title="发表于 2023-05-22 14:32:00">2023-05-22</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/resources/post_image/2023/05/%E3%80%8A%E5%8F%8D%E6%AC%BA%E9%AA%97%E7%9A%84%E8%89%BA%E6%9C%AF%E3%80%8B%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E5%AE%89%E5%85%A8%E8%BD%AF%E8%82%8B/00.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2021 - 2023 By 调查员D★ubleZ</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'ad7AT39i5sRxDi6wogxs89Ia-gzGzoHsz',
+      appKey: 'mXdGNWi0gYN0WwSNz0VxhOsJ',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('/js/valine/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
